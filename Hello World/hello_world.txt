@@ -1,0 +1,24 @@
+Create, run all files to show "Hellow World" on stdout. Can edit on code.
+
+C++
+
+#include <iostream>
+
+std::cout << "";
+
+==========
+
+Python
+
+print("")
+
+==========
+
+JavaScript
+
+console.log("")
+
+==========
+
+Haskell
+

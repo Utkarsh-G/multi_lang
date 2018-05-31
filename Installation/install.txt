@@ -1,0 +1,61 @@
+C++
+
+Using Xcode. Currently running with GUI.
+Start Xcode, start new project, select command line tools (under macOS),
+select C++ as language, and start.
+
+Run with buttons.
+
+Will need to learn to build and run from command line:
+    Got it!
+    make <file.cpp>
+    ./file
+
+Or for custom executable: c++ <file.cpp> -o <custom>
+    ./custom
+
+For enforcing c++11 (or 14 or 17):
+c++ -std=c++11 -stdlib=libc++ <file.cpp> -o <custom>
+
+
+Python
+
+I can't remember exactly, but I think I did: brew install python
+There is a default python in mac but it is outdated. 
+A new version is installed in usr/local/bin.
+Comes with pip, I think, but haven't tested it out yet.
+
+Can open REPL with: python3
+Can run scripts with: python3 <filename> <arguments>
+
+I have some kind of python linter installed on VS Code.
+
+
+
+JavaScript
+
+Well, browsers are the default interpreters for JS. 
+For node (and npm): brew install node
+
+Can still run js files with: node <filename>
+or (if configured): npm start
+(or custom npm script)
+
+
+
+Haskell
+
+brew install haskell-platform
+
+Can start "REPL" with: ghci
+Best idea is to work in a .hs file first
+Then load it up with
+    :l filename
+Then call its functions from the REPL.
+And to reload after changing the file:
+    :r
+
+But simple expressions can still be evaluated in the REPL.
+
+To quit
+    :quit
