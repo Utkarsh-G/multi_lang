@@ -1,0 +1,35 @@
+IO with user prompt, and also file IO.
+
+C++
+
+std namespace, I guess. cout, cin etc. 
+
+==========
+
+Python
+
+When using files, it's pie thon i c c to use the "with open(<file path>) as <filename>":" syntax.
+
+==========
+
+JavaScript
+
+The io functions are (can be?) asynchronous, non-blocking. So they run on Promises / callbacks.
+
+That might be what prevents it from using the "<" operator from the command line (which lets us use a file as stdin).
+
+==========
+
+Haskell
+
+When getting input from user, that function has some kind of "IO" attached to the type. Like "getLine" is of type "IO String". We can extract from it a String type by using <-
+
+name <- getLine
+
+(And this had to be done inside onther I/O action?)
+
+Once we have a String, we can put it inside any purely functional function like it's no big deal.
+
+WTF is a "do" block? Why can't the last action be bound to a name? What is a monad?
+(do block does imperative programming: sequential actions.)
+"I/O actions will only be performed when they are given a name of main or when they're inside a bigger I/O action that we composed with a do block."
